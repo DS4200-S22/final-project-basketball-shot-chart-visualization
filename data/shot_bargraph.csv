@@ -1,0 +1,24 @@
+PERIOD,SHOT_ZONE_RANGE,SHOT_ATTEMPTED_FLAG,SHOT_MADE_FLAG
+1,16-24 ft.,1,0
+1,24+ ft.,76,23
+1,8-16 ft.,15,6
+1,Less Than 8 ft.,84,49
+2,16-24 ft.,1,1
+2,24+ ft.,87,37
+2,8-16 ft.,11,6
+2,Back Court Shot,1,0
+2,Less Than 8 ft.,79,44
+3,16-24 ft.,4,2
+3,24+ ft.,80,29
+3,8-16 ft.,22,8
+3,Back Court Shot,1,0
+3,Less Than 8 ft.,80,45
+4,16-24 ft.,1,1
+4,24+ ft.,85,29
+4,8-16 ft.,14,10
+4,Less Than 8 ft.,83,46
+5,24+ ft.,3,3
+5,8-16 ft.,1,0
+5,Less Than 8 ft.,3,2
+6,24+ ft.,1,0
+6,Less Than 8 ft.,1,1
