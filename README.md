@@ -4,6 +4,11 @@ This template is the starting point for your final project's webpage. Please rea
 
 ## Link to Project Webpage
 
+PLEASE READ NOTES:
+
+X AXIS FOR BARCHART WOULD NOT ROTATE THE TICK VALUES, WILL BE FIXED WITH OFFICE HOURS, STACKOVERFLOW FIX WAS NOT WORKING.
+BRUSHING AND LINKING WILL BE ADDED NEXT, GETTING WEIRD ERROR. THANKS
+
 https://ds4200-s22.github.io/final-project-basketball-shot-chart-visualization/
 
 ## Setup
