@@ -4,12 +4,6 @@ This template is the starting point for your final project's webpage. Please rea
 
 ## Link to Project Webpage
 
-PLEASE READ NOTES:
-
-BRUSHING AND LINNKING ADDED FOR SCATTERPLOTS, STILL NEEDS SOME TWEAKING FOR BAR GRAPHS BUT THE INTERACTIVE ELEMENT IS THERE
-
-X AXIS FOR BARCHART WOULD NOT ROTATE THE TICK VALUES, WILL BE FIXED WITH OFFICE HOURS, STACKOVERFLOW FIX WAS NOT WORKING.
-
 
 https://ds4200-s22.github.io/final-project-basketball-shot-chart-visualization/
 
