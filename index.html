@@ -21,7 +21,7 @@
 
 <!-- Writeup -->
 <div class='content-column'>
-    <h1>NBA Player Shot Charts</h1>
+    <h1>NBA Team's Immersive Statistics</h1>
         
     <p>
       <strong>Amaan Bhojani</strong>, <strong>Sunny Kang</strong>, <strong>Johnson Wang</strong>, <strong>Abyan Nawaz</strong>, <strong>Matthew Vieira</strong>
@@ -38,17 +38,37 @@
     <h1>Abstract</h1>
         
     <p>
-      Data driven approaches in the realm of basketball to improve team performance are not centralized or standardized. With the use of short charts and heat maps, teams can better understand their chemistry, efficiency and productivity. The visualizations provided show overlapping heat maps where certain players perform better than others. To better structure your team with the nuance of data, coaches and staff can utilize the visualizations to know what players perform better with certain teammates, against certain players/teams, in particular quarters of the game. 
+      Data driven approaches in the realm of basketball to improve team performance are not centralized or standardized. With the use of scatter plots, bar graphs and linking, teams can better understand their chemistry, efficiency and productivity. The visualizations provided show data per NBA team to showcase their strengths and weaknesses. To better structure your team with the nuance of data, coaches and staff can utilize the visualizations to know where they stack up against other teams, which teams to look out for and the biggest/most important areas that need improvement.
     </p>
 </div>
 
  
 <!-- Visualization -->   
 <h1>Visualization</h1>
+
+<div class="horizontal-container1" id="league-outlook">
+
+  <h1 class="container-headers"> League Outlook</h1>
+
   
-<div class='vis-holder' id="vis-container">
+</div>
+
+<div class="horizontal-container2" id="shooting-pct">
+
+  <h1 class="container-headers"> Shooting Percentages By Team</h1>
+
+  
+</div>
 
 </div>
+
+<div class="horizontal-container3" id="playoff-stats">
+
+  <h1 class="container-headers"> Average Statistics For Teams That Made and Missed Playoffs</h1>
+
+  
+</div>
+  
   
   
 <!-- More writeup -->
@@ -56,29 +76,61 @@
 
   <h1>Demo Video</h1>
   
-  <p>
-    Embed an MP4 demo video using the HTML5 &lt;video&gt; tag. For example, below is a screen recording Prof. Cody Dunne made of Mike Bostock's flexible transitions in D3. <strong>Be sure to delete this filler text before your final submission!</strong> 
-  </p>
   
   <video controls width='100%'>
-    <source src='http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4' type='video/mp4'>
+    <source src='vid/ds4200_demo_vid.mov' type='video/mp4'>
     <p>Your browser doesn't support HTML5 video. Here is
-     a <a href='http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4'>link to the video</a> instead.</p>
+     a <a href='https://github.com/DS4200-S22/final-project-basketball-shot-chart-visualization'>link to the GitHub Repo to see the video</a> instead.</p>
   </video>
 
   <h1>Visualization Explanation</h1>
   
   <p>
-    Current visualization explanation: The scatter plot shows EFG% (umbrella stat that tells how effective a team is) versus the teams wins. Here we can see data that is positively correlated which will tell our end users a sector to improve on. In the bargraph we simply have the wins each team had in the season, once brushing and linking is created, teams can easily see how wins and effective field goal percentage (EFG) are correlated.
+    In the first section, there is the League Outlook sector. In here the user can brush over the scatter plots showcasing Wins versus Effective Field Goal Percentage or 3 point field goal percentage versus three point attempts. 
+    When the brushing is done, the bar graph in the middle showcasing each team's total win will also be bolded based on the data bolded in either of the scatter plots. Hovering over any bar graph in the middle bar graph within League Outlook,
+    will showcase that team's name, wins, EFG%, 3 pointer percentage and attempted 3 pointers. Furthermore, the linking can also be seen below, as those same teams will be bolded in all three of the bar graphs in the middle section: Shooting
+    Percentages By Team. This section showcases field goal percentage by team, free throw percentage by team and three point field goal percentage by team. All of these bars can be hovered over, where they will then showcase the team's name
+    and the three statistics just mentioned. Lastly, in the Average Statistics For Teams That Made and Missed Playoffs, the average statistics for EFG%, 3 point field goal percentage, wins, field goal percentage and free throw percentage can all
+    be seen in this sector. Hovering over any bar gives the user the exact value of the bar they are hovering over. Using all of this data together, team's know where they must improve upon and they will also see how other teams succeed. This helps
+    team's and manangers make executive choices to better themselves for the following season.
   </p>
   
   <h1>Acknowledgments</h1>
 
   <ul>
+    <li><a href='https://www.tomordonez.com/d3-bar-chart-title-and-labels/'>
+      Chart Titles</a>
+      by Tom Ordonez used to create this assignment's titles.
+    </li>
+    <li><a href='https://stackoverflow.com/questions/50989383/titles-not-showing-on-links-or-nodes-using-js-d3-js-version-3'>
+      Chart Titles 2</a>
+      by StackOverFlow used to create this assignment's titles.
+    </li>
+    <li><a href='https://bl.ocks.org/mbostock/4403522'>
+      Rotate Axis Labels</a>
+      by Mike Bostock used to create this assignment and rotate labels.
+    </li>
+    <li><a href=' https://stackoverflow.com/questions/21422705/how-to-configure-x-axis-and-manually-set-start-end-time-for-d3-js'>
+      Start and End Axis Manunally</a>
+      by StackOverFlow is used for manipulating the DOM to create visualizations.
+    </li>
+    <li><a href='https://codepen.io/Rbrath/pen/XyeMLB'>
+      Font Attributes in d3</a>
+      by RBrath is used for manipulating the fonts in the visualizations.
+    </li>
+    <li><a href='https://www.basketball-reference.com/about/factors.html'>
+      Four Factors of Basketball</a>
+      by Basketball Reference is used for choosing data.
+    </li>
+    <li><a href='https://stackoverflow.com/questions/15762768/javascript-math-round-to-two-decimal-places'>
+      Round in JavaScript</a>
+      by StackOverFlow is used for maninpulating numbers.
+    </li>
     <li><a href='https://d3js.org/'>
       D3: Data-Driven Documents</a>
       by Mike Bostock is used for manipulating the DOM to create visualizations.
     </li>
+    
     <li><a href='https://codepo8.github.io/css-fork-on-github-ribbon/#'>
       Pure CSS responsive 'Fork me on GitHub' ribbon</a>
       by Chris Heilmann is used to create the banner that links back to the source code repository.
