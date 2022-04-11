@@ -1,7 +1,7 @@
 /* General formatting */
 body {
 	padding: 0 10px;
-	font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next",avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans",roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans",
+	font: 18px/1.5 -apple-system, "BlinkMacSystemFont", "avenir next","avenir", "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans",roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans",
 	sans-serif;
 }
 
@@ -21,10 +21,24 @@ h1, h2, h3 {
   height: 100%;
 }
 
+.horizontal-container1 {
+	justify-content: center;
+}
+
 
 .brushed {
 	stroke: black;
 	stroke-width: 3px;
 	opacity: 1 !important;
   
+  }
+
+  .container-headers {
+	justify-content: center;
+	text-align: center;
+  }
+
+  .horizontal-container1 > svg {
+	  width: 100;
+	  height: 100;
   }
